@@ -11,33 +11,19 @@ using System.Threading.Tasks;
 
 namespace CommsecPOM.Tests
 {
+    [TestFixture]
     public class TimeSheetsPageTest : BasePage
     {
         LoginPage loginPage;
         HomePage homePage;
         TimeSheetsPage timeSheetsPage;
 
-        ExtentTest test;
-
-        [SetUp]
-        public void beforeTest()
-        {
-            //test = extent.CreateTest("VerifyOrangeLogin").Info("Test Started");
-            test = extent.CreateTest(TestContext.CurrentContext.Test.Name).Info("Test Started");
-        }
-
-        [TearDown]
-        public void afterTest()
-        {
-
-        }
-
         [Test]
         public void goToTimeSheetPage()
         {
             
             //test = extent.CreateTest("Go To Time Sheet Page").Info("Time Sheet Page Test Started");
-            loginPage = new LoginPage(driver);
+            loginPage = new LoginPage(GetDriver());
 
             test.Log(Status.Info, "Login To Orange Page");
             homePage = loginPage.LoginToOrangePage("Admin", "admin123");

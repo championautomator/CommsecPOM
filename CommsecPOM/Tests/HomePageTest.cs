@@ -12,40 +12,26 @@ using System.Threading.Tasks;
 
 namespace CommsecPOM.Tests
 {
+    [TestFixture]
     public class HomePageTest : BasePage
     {
-
         LoginPage loginPage;
         HomePage homepage;
-        ExtentTest test;
-
-        [SetUp]
-        public void beforeTest()
-        {
-            //test = extent.CreateTest("VerifyOrangeLogin").Info("Test Started");
-            test = extent.CreateTest(TestContext.CurrentContext.Test.Name).Info("Test Started");
-        }
-
-        [TearDown]
-        public void afterTest()
-        {
-
-        }
 
         [Test]
         public void VerifyOrangeHomePage()
         {
 
             //test = extent.CreateTest("VerifyOrangeHomePage").Info("Test Started");
-            loginPage = new LoginPage(driver);
+            loginPage = new LoginPage(GetDriver());
             homepage = loginPage.LoginToOrangePage("Admin", "admin123");
            
             string homePage = homepage.VerifyAtHomePage();
 
             Console.WriteLine(homePage);
 
-            test.Log(Status.Info, "Check homepage");
-            Assert.AreEqual("Welcome Admin", homePage);
+            //test.Log(Status.Info, "Check homepage");
+            Assert.IsTrue(homePage.Equals("Welcome Admin"));
 
 
             //homepage.LogoutHomePage();
@@ -57,16 +43,17 @@ namespace CommsecPOM.Tests
         public void VerifyOrangeHomePage1()
         {
             //test = extent.CreateTest("VerifyOrangeHomePage1").Info("Test Started");
-            test.Log(Status.Info, "VerifyOrangeHomePage1xxxxxx");
+            //test.Log(Status.Info, "VerifyOrangeHomePage1xxxxxx");
+            Assert.IsTrue(false);
         }
 
         [Test]
         public void VerifyOrangeHomePage2()
         {
             //test = extent.CreateTest("VerifyOrangeHomePage2").Info("Test Started");
-            test.Log(Status.Info, "VerifyOrangeHomePage2xxxxxxxx");
-            test.Log(Status.Error, "VerifyOrangeHomePage2");
-            test.Log(Status.Fail, "VerifyOrangeHomePage2fffffffff");
+           // test.Log(Status.Info, "VerifyOrangeHomePage2xxxxxxxx");
+            //test.Log(Status.Error, "VerifyOrangeHomePage2");
+           // test.Log(Status.Fail, "VerifyOrangeHomePage2fffffffff");
         }
 
     }
