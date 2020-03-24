@@ -18,7 +18,11 @@ namespace CommsecPOM.Pages.PagesClass
         By logout = By.XPath("//a[@href='/index.php/auth/logout']");
         //By timeSheets = By.XPath("//a[@href='/index.php/time/viewEmployeeTimesheet']");
         By timeSheets = By.LinkText("Timesheets");
-        
+        By admin = By.XPath("//b[contains(text(),'Admin')]");
+        By oganizationMenu = By.Id("menu_admin_Organization");
+        By generalInformation = By.Id("menu_admin_viewOrganizationGeneralInformation");
+
+
 
         public HomePage(IWebDriver driver)
         {
@@ -48,6 +52,13 @@ namespace CommsecPOM.Pages.PagesClass
             return new TimeSheetsPage(driver);
         }
 
+        public GeneralInfomationPage gotoGeneralInfomationPage()
+        {
+            Thread.Sleep(1500);
+            driver.FindElement(generalInformation).Click();
+            return new GeneralInfomationPage(driver);
+        }
+
         public void LogoutHomePage()
         {
             //WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
@@ -63,6 +74,15 @@ namespace CommsecPOM.Pages.PagesClass
             driver.FindElement(logout).Click();
         }
 
+        public void clickAdmin()
+        {
+            driver.FindElement(admin).Click();
+        }
+
+        public void clickOrganizationMenu()
+        {
+            driver.FindElement(oganizationMenu).Click();
+        }
 
     }
 }

@@ -44,7 +44,7 @@ namespace CommsecPOM.Tests
         {
             //test = extent.CreateTest("VerifyOrangeHomePage1").Info("Test Started");
             //test.Log(Status.Info, "VerifyOrangeHomePage1xxxxxx");
-            Assert.IsTrue(false);
+            //Assert.IsTrue(false);
         }
 
         [Test]

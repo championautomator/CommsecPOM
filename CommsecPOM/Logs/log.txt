@@ -1,6 +1,63 @@
-INFO NonParallelWorker CommsecPOM.Tests.LoginPageTest - Log4net is starting here
-INFO NonParallelWorker CommsecPOM.Tests.LoginPageTest - Log4net: perfomr login.........
-INFO NonParallelWorker CommsecPOM.Tests.LoginPageTest - Log4net is starting here
-INFO NonParallelWorker CommsecPOM.Tests.LoginPageTest - Log4net: perfomr login.........
-INFO NonParallelWorker CommsecPOM.Tests.LoginPageTest - Log4net is starting here
-INFO NonParallelWorker CommsecPOM.Tests.LoginPageTest - Log4net: perfomr login.........
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Log out
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+INFO NonParallelWorker CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 19:43:57,750 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 19:44:03,340 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 19:44:03,368 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 19:44:04,899 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 19:44:04,932 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 19:47:08,114 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 19:47:12,335 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 19:47:12,369 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 19:47:13,906 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 19:47:13,939 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 19:47:45,102 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here
+2020-03-24 19:47:45,102 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net: perfomr login.........
+2020-03-24 19:51:16,267 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 19:51:20,286 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 19:51:20,330 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 19:51:21,863 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 19:51:21,907 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 19:51:59,133 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 19:52:03,201 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 19:52:03,245 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 19:54:58,237 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 19:55:02,373 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 19:55:02,415 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 19:55:03,942 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 19:55:03,973 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 19:55:35,991 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here
+2020-03-24 19:55:35,991 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net: perfomr login.........
+2020-03-24 20:00:20,779 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 20:00:24,738 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 20:00:24,786 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 20:00:26,317 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 20:00:26,342 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 20:00:59,800 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here
+2020-03-24 20:00:59,800 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net: perfomr login.........
+2020-03-24 20:08:28,726 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 20:08:32,797 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 20:08:32,846 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 20:08:34,385 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 20:08:34,415 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 20:09:06,801 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here
+2020-03-24 20:09:06,801 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net: perfomr login.........
+2020-03-24 20:10:55,596 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 20:10:59,706 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 20:10:59,747 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 20:11:01,279 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 20:11:01,311 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 20:11:33,857 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here
+2020-03-24 20:11:33,857 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net: perfomr login.........
+2020-03-24 20:13:07,716 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here with General Infomation Test
+2020-03-24 20:13:11,834 INFO CommsecPOM.Pages.BaseClass.BasePage - Check SubTitle
+2020-03-24 20:13:11,882 INFO CommsecPOM.Pages.BaseClass.BasePage - Check Organization Name
+2020-03-24 20:13:13,413 INFO CommsecPOM.Pages.BaseClass.BasePage - Number Of Employees
+2020-03-24 20:13:13,439 INFO CommsecPOM.Pages.BaseClass.BasePage - Log out
+2020-03-24 20:13:45,938 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net is starting here
+2020-03-24 20:13:45,938 INFO CommsecPOM.Pages.BaseClass.BasePage - Log4net: perfomr login.........

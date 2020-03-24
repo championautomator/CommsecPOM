@@ -18,8 +18,7 @@ namespace CommsecPOM.Tests
     [TestFixture]
     class LoginPageTest : BasePage
     {
-        //log4Net
-        log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+       
 
         [Test]
         public void VerifyOrangeLogin()

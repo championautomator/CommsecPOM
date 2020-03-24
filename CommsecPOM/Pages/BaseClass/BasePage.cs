@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace CommsecPOM.Pages.BaseClass
 {
-    [SetUpFixture]
+    ///[SetUpFixture]
     public class BasePage
     {
         public IWebDriver driver;
@@ -23,11 +23,13 @@ namespace CommsecPOM.Pages.BaseClass
         protected ExtentTest test = null;
         private string browser = System.Configuration.ConfigurationManager.AppSettings["Browser"];
         private string url = System.Configuration.ConfigurationManager.AppSettings["Url"];
+        //log4Net
+        public log4net.ILog log;
+
 
         [OneTimeSetUp]
         public void Setup()
         {
-      
             //String testName = System.Reflection.Assembly.GetEntryAssembly().GetName().Name;
             String testName = "OrangePOM";
             String currentDate = DateTime.Now.ToString("dd-MM-yyyyHHmmss");
@@ -38,7 +40,9 @@ namespace CommsecPOM.Pages.BaseClass
             extent.AddSystemInfo("MachineName", System.Environment.MachineName);
             extent.AddSystemInfo("Environment", "QA");
             extent.AddSystemInfo("User Name", System.Environment.UserName);
-         
+
+            //log4Net
+            log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         }
 
         [OneTimeTearDown]

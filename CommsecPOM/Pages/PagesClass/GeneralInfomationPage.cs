@@ -9,7 +9,6 @@ namespace CommsecPOM.Pages.PagesClass
 {
     public class GeneralInfomationPage
     {
-
         IWebDriver driver;
 
         public GeneralInfomationPage(IWebDriver driver)
@@ -20,6 +19,9 @@ namespace CommsecPOM.Pages.PagesClass
         By subTitle = By.Id("genInfoHeading");
         By organizationName = By.Id("organization_name");
         By numberOfEmployee = By.Id("numOfEmployees");
+        //By admin = By.XPath("//b[contains(text(),'Admin')]");
+        //By oganizationMenu = By.Id("menu_admin_Organization");
+        //By generalInformation = By.Id("menu_admin_viewOrganizationGeneralInformation");
 
         public string verifyGeneralInfomationPageTitle()
         {
@@ -33,7 +35,7 @@ namespace CommsecPOM.Pages.PagesClass
 
         public string getOrganizationName()
         {
-            return driver.FindElement(organizationName).Text;
+            return driver.FindElement(organizationName).GetAttribute("value");
         }
 
         public string getNumberOfEmployee()
@@ -41,5 +43,20 @@ namespace CommsecPOM.Pages.PagesClass
             return driver.FindElement(numberOfEmployee).Text;
         }
 
+      /*  public void clickAdmin()
+        {
+            driver.FindElement(admin).Click();
+        }
+
+        public void clickOrganizationMenu()
+        {
+            driver.FindElement(oganizationMenu).Click();
+        }
+
+        public void clickGeneralInformation()
+        {
+            driver.FindElement(generalInformation).Click();
+        }
+        */
     }
 }
